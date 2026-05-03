@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="container" style="padding-top: 4rem;">
+  <h1>{{ page.heading }} <span class="highlight">{{ page.highlight }}</span></h1>
+  <p class="lead">{{ page.lead }}</p>
+
+  {% for pillar in page.pillars %}
+  <div class="card">
+    <h2><i class="{{ pillar.icon }}"></i> {{ pillar.title }}</h2>
+    <div class="markdown-content">
+      {{ pillar.content | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+</div>

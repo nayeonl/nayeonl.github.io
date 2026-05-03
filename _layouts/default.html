@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  {% seo %}
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+        <div>
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/research/' | relative_url }}">Research</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/mentorship/' | relative_url }}">Mentorship</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  {{ content }}
+
+  <footer>
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. {{ site.author.university }}.</p>
+      <div class="icon-box" style="justify-content: center;">
+        <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>
+        <a href="{{ site.author.scholar }}"><i class="fas fa-graduation-cap"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="container" style="padding-top: 4rem; padding-bottom: 4rem;">
+  <h1>{{ page.heading }} <span class="highlight">{{ page.highlight }}</span></h1>
+  <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 3rem;">
+    {{ page.summary }}
+  </p>
+
+  <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 0.5rem; margin-bottom: 2rem;">{{ page.journals_title | default: "Journal Publications" }}</h2>
+  <div class="publication-list">
+    {% for pub in site.data.publications.journals reversed %}
+      <div class="card" style="margin-bottom: 1.5rem; padding: 1.5rem; border-left: 4px solid var(--secondary-color);">
+        <h3 style="margin-top: 0; font-size: 1.2rem; margin-bottom: 0.5rem;">
+          {% if pub.link %}
+            <a href="{{ pub.link }}" target="_blank" style="color: var(--primary-color); text-decoration: none;">{{ pub.title }}</a>
+          {% else %}
+            <a href="https://scholar.google.com/scholar?q={{ pub.title | cgi_escape }}" target="_blank" style="color: var(--primary-color); text-decoration: none;">{{ pub.title }}</a>
+          {% endif %}
+        </h3>
+        <p style="margin: 0; font-size: 0.95rem; color: var(--text-color);">{{ pub.authors }}</p>
+        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: var(--text-light);">
+          <em>{{ pub.journal }}</em> {% if pub.details %}{{ pub.details }}{% endif %} <strong>({{ pub.year }})</strong>
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h2 style="border-bottom: 2px solid var(--primary-color); padding-bottom: 0.5rem; margin-bottom: 2rem; margin-top: 4rem;">{{ page.conferences_title | default: "Peer-Reviewed Conference Papers" }}</h2>
+  <div class="publication-list">
+    {% for pub in site.data.publications.conferences reversed %}
+      <div class="card" style="margin-bottom: 1.5rem; padding: 1.5rem; border-left: 4px solid var(--primary-color);">
+        <h3 style="margin-top: 0; font-size: 1.1rem; margin-bottom: 0.5rem;">
+          <a href="https://scholar.google.com/scholar?q={{ pub.title | cgi_escape }}" target="_blank" style="color: var(--primary-color); text-decoration: none;">{{ pub.title }}</a>
+        </h3>
+        <p style="margin: 0; font-size: 0.95rem; color: var(--text-color);">{{ pub.authors }}</p>
+        <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; color: var(--text-light);">
+          <em>{{ pub.journal }}</em> {% if pub.details %}{{ pub.details }}{% endif %} <strong>({{ pub.year }})</strong>
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

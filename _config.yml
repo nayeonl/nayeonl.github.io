@@ -1,0 +1,39 @@
+title: "Nayeon Lee, Ph.D."
+email: nayeon@cavs.msstate.edu
+description: >-
+  Assistant Research Professor at CAVS, Mississippi State University. 
+  Bridging Organic Biology and Computational Precision.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nayeon-lee.github.io" # the base hostname & protocol for your site
+
+# Academic Info
+author:
+  name: "Nayeon Lee"
+  role: "Assistant Research Professor"
+  affiliation: "Center for Advanced Vehicular Systems (CAVS)"
+  university: "Mississippi State University"
+  location: "Starkville, MS"
+  scholar: "https://scholar.google.com/citations?user=ajHpBswAAAAJ&hl=en"
+
+# Theme Colors (Modern Biomimetic)
+colors:
+  primary: "#0f172a" # Slate Dark
+  secondary: "#e11d48" # Woodpecker Crimson
+  text: "#334155" # Slate Gray
+  background: "#ffffff" # Crisp White
+
+# Build settings
+theme: minima # We will customize this or build a custom layout
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/

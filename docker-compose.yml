@@ -1,0 +1,15 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --drafts --force_polling --host 0.0.0.0
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+      - vendor_cache:/usr/local/bundle
+    environment:
+      JEKYLL_UID: 1000
+      JEKYLL_GID: 1000
+
+volumes:
+  vendor_cache:

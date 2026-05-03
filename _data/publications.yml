@@ -1,0 +1,191 @@
+journals:
+  - id: j1
+    authors: "Francis, D. K., J. Deang, R. S. Florea, D. R. Gaston, N. Lee, S. Nouranian, C. J. Permann et al."
+    title: "Characterization and failure analysis of a polymeric clamp hanger component."
+    journal: "Engineering Failure Analysis"
+    year: "2012"
+    details: "26: 230-239"
+  
+  - id: j2
+    authors: "Johnson, K. L., M. W. Trim, M. F. Horstemeyer, Nayeon Lee, L. N. Williams, Jun Liao, Hongjoo Rhee, and R. Prabhu"
+    title: "Geometric effects on stress wave propagation."
+    journal: "Journal of biomechanical engineering"
+    year: "2014"
+    details: "136, no. 2: 021023"
+  
+  - id: j3
+    authors: "Nayeon Lee, M. F. Horstemeyer, Hongjoo Rhee, Ben Nabors, Jun Liao, and Lakiesha N. Williams"
+    title: "Hierarchical multiscale structure–property relationships of the red-bellied woodpecker (Melanerpes carolinus) beak."
+    journal: "Journal of The Royal Society Interface"
+    year: "2014"
+    details: "11, no. 96: 20140274"
+  
+  - id: j4
+    authors: "Sungkwang Mun, G. F. Sassenrath, A. M. Schmidt, Nayeon Lee, M. C. Wadsworth, Brandon Rice, Jason Q. Corbitt et al."
+    title: "Uncertainty analysis of an irrigation scheduling model for water management in crop production."
+    journal: "Agricultural Water Management"
+    year: "2015"
+    details: "155: 100-112"
+  
+  - id: j5
+    authors: "Nayeon Lee, M.F. Horstemeyer, R. Prabhu, Jun Liao, Hongjoo Rhee, Youssef Hammi, Lakiesha N. Williams"
+    title: "The geometric effects of a woodpecker’s hyoid apparatus in shock mitigation"
+    journal: "Bioinspiration & Biomimetics"
+    year: "2016"
+    details: "11, no. 6: 066004"
+  
+  - id: j6
+    authors: "Nayeon Lee, Lakiesha N. Williams, Sungkwang Mun, R. Prabhu, Kabindra R. Bhattarai, H. Rhee, M.F. Horstemeyer"
+    title: "Stress wave mitigation at suture interfaces"
+    journal: "Biomedical Physics & Engineering Express"
+    year: "2017"
+    details: "3, no. 3: 035025"
+  
+  - id: j7
+    authors: "Nayeon Lee, P.R. Berthelson, Vina Nguyen, Me’Lanae Garrett, AnneMarie Kovach, Lakiesha N. Williams, Robert Moser, M.F. Horstemeyer, Hongjoo Rhee, R.K. Prabhu"
+    title: "Microstructure and nanomechanical properties of the exoskeleton of southern ironclad beetles"
+    journal: "Bioinspiration & Biomimetics"
+    year: "2021"
+    details: ""
+  
+  - id: j8
+    authors: "Nayeon Lee, et al."
+    title: "Effect of Treated Time of Hydrothermal Etching Process on Oxide Layer Formation and Its Antibacterial Properties."
+    journal: "Biomimetics"
+    year: "2022"
+    details: "7.3: 91"
+  
+  - id: j9
+    authors: "Senanayaka, Ayantha, Philku Lee, Nayeon Lee, Charles Dickerson, Anton Netchaev, and Sungkwang Mun."
+    title: "Enhancing the accuracy of machinery fault diagnosis through fault source isolation of complex mixture of industrial sound signals."
+    journal: "The International Journal of Advanced Manufacturing Technology"
+    year: "2024"
+    details: "1-16"
+  
+  - id: j10
+    authors: "Persons, A.K., Hammi, Y., Elder, S.H., Priddy, L.B., Priddy, M.W., Butler, R., Schemmel, A., Whitehurst, E., Lee, N. and Horstemeyer, M.F."
+    title: "Theoretical model of impact mitigation mechanisms inherent to the North American bison skull."
+    journal: "Biology Open"
+    year: "2024"
+    details: "13(9)"
+  
+  - id: j11
+    authors: "Nayeon Lee, Sungkwang Mun, Kyle L. Johnson, and M.F. Horstemeyer."
+    title: "The Function of Horn Ridges for Impact Damping."
+    journal: "Biomimetics"
+    year: "2024"
+    details: "9(8), p.506"
+  
+  - id: j12
+    authors: "Daniela F. Tellkamp, Sungkwang Mun, Gehendra Sharma, Nayeon Lee, Luke Peterson"
+    title: "Structural Design and Optimization of Deployable Protective Wall Using Machine Learning-Based Surrogate Models for Blast and Impact Resistance"
+    journal: "Machine Learning: Engineering"
+    year: "2025"
+    details: ""
+  
+  - id: j13
+    authors: "Sungkwang Mun, Nayeon Lee, D. Dickle, et al."
+    title: "A Modified Embedded Atom Method (MEAM) Interatomic Potential for the Fe-CH System"
+    journal: "arXiv preprint"
+    year: "2021"
+    details: "arXiv:2109.01712"
+    link: "https://arxiv.org/abs/2109.01712"
+  
+  - id: j14
+    authors: "Gehendra Sharma, Ryan Yingling, Nayeon Lee, et al."
+    title: "Mitigating Failures and Enhancing Reliability of a Canine Ventricular Shunt Through Robust Multi-objective Design Method"
+    journal: "Medical Engineering & Physics"
+    year: "2026"
+    details: ""
+  
+  - id: j15
+    authors: "M.F. Horstemeyer, Nayeon Lee, H. Gao"
+    title: "Nature’s way of dissipating mechanical energy: transmitting normal (uniaxial, biaxial, and triaxial) stresses to shear stresses"
+    journal: "Under Review"
+    year: "2026"
+    details: ""
+  
+  - id: j16
+    authors: "Qing Liu, Ayantha Senanayaka, Nayeon Lee, Sungkwang Mun, Amin Amirlatifi, Joe Jabour, Thomas Arnold, Maria Seale"
+    title: "Transforming Additive Manufacturing with Transfer Learning: Applications, Challenges, and Future Directions"
+    journal: "Advanced Engineering Informatics"
+    year: "2026"
+    details: "Under Review"
+  
+  - id: j17
+    authors: "Daniela F. Tellkamp, Sungkwang Mun, Gehendra Sharma, Nayeon Lee, Luke Peterson"
+    title: "Surrogate model-based design optimization of a mobile deployable structure for blast load and vehicular impact mitigation"
+    journal: "Under Review"
+    year: "2026"
+    details: ""
+  
+  - id: j18
+    authors: "A. Bakhtiarydavijani, B. D. Huddleston, L. Peterson, Nayeon Lee, S. Adibi sedeh, D. E. Dickel, Y. Hammi, D. Bammann"
+    title: "A physics-based constitutive material model for hydrogen embrittlement considering hydrogen-enhanced decohesion and hydrogen-enhanced plasticity mechanisms in for high rate dp600"
+    journal: "In preparation"
+    year: "2026"
+    details: ""
+  
+  - id: j19
+    authors: "J. W. Wood, M. A. Murphy, Nayeon. Lee, et al."
+    title: "Structure-Property Relationships and Morphometric Effects of Different Sharks’ Teeth on Shearing Performance"
+    journal: "In preparation"
+    year: "2026"
+    details: ""
+
+conferences:
+  - id: c1
+    authors: "R. Prabhu, Nayeon Lee, M. C. Wadsworth, G. F. Sassenrath, A. M. Schmidt, J. Crumpton, B. Rice et al."
+    title: "Uncertainty, Calibration and Validation of the Mississippi Irrigation Scheduling Tool Model"
+    journal: "The Proceedings of American Society of Agricultural and Biological Engineers"
+    year: "2013"
+    details: "Kansas City, MO"
+  
+  - id: c2
+    authors: "Nayeon Lee, R. Prabhu, Lakiesha N. Williams, M.F. Horstemeyer"
+    title: "The role of the hyoid apparatuses of woodpeckers for energy dissipation"
+    journal: "The Proceedings of Southern Biological Engineering Conference"
+    year: "2014"
+    details: "Gulf port, MS"
+
+  - id: c3
+    authors: "Nayeon Lee, Sungkwang Mun, M.F. Horstemeyer, Stephen Horstemeyer, David Lang"
+    title: "A Characterization of Petrified and Mummified Wood from an Eocene Deposit in Mississippi"
+    journal: "The Proceedings of International Conference for Creationism"
+    year: "2018"
+    details: "Pittsburgh, PA"
+
+  - id: c4
+    authors: "Gehendra Sharma, Anand Balu Nellippallil, Ryan Yingling, Nayeon Lee, Andy Shores, Raheleh Miralami, Tonya W. Stone, and Raj K. Prabhu"
+    title: "Multi-Objective Robust Design Exploration of a Canine Ventricular Shunt for Managing Hydrocephalus"
+    journal: "The Proceedings of the ASME-IDETC/CIE"
+    year: "2021"
+    details: "Online"
+
+  - id: c5
+    authors: "Denver Seely, Bradley Huddleston, Nayeon Lee, Sungkwang Mun, Anh Vo, Doyl Dickel, Krista Limmer"
+    title: "Atomistic Study on Diffusion and Trapping of Hydrogen in Nanocrystalline Steel"
+    journal: "The Proceedings of the TMS Conference"
+    year: "2022"
+    details: "Anaheim, CA"
+
+  - id: c6
+    authors: "Luke Peterson, Michael Murphy, Nayeon Lee, Gehendra Sharma, et al."
+    title: "A Finite Element Framework for Studying Mechanical Aspects of Blast Load Induced Traumatic Brain Injury in Humans"
+    journal: "ASME-IMECE"
+    year: "2024"
+    details: "Portland, OR"
+
+  - id: c7
+    authors: "Ayantha Senanayaka, Qing Liu, Nayeon Lee, Sungkwang Mun, Amin Amirlatifi, Joe Jabour, Thomas Arnold, Maria Seale"
+    title: "Frequency domain tensor-based 1D-convolutional neural network and multilinear principal component analysis for machinery fault detection"
+    journal: "The proceedings of the Prognostic and Health Monitoring Conference"
+    year: "2024"
+    details: "Nashville, TN"
+
+  - id: c8
+    authors: "Nayeon Lee, Ayantha Senanayaka, Jonathan Storey, Michael Murphy, Joonsik Hwang, et al."
+    title: "Enhancing Defect Detection Accuracy in Wire-Arc Additive Manufactured Samples Through Fusion of Multi-Directional Scanning with Phased Array Ultrasound Testing (PAUT)"
+    journal: "ASME-IMECE"
+    year: "2025"
+    details: "Memphis, TN"

@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="container">
+    <h1>{{ page.hero.title }}</h1>
+    <div class="subtitle">{{ page.hero.subtitle }}</div>
+    <div style="font-size: 1.1rem; max-width: 700px; color: var(--text-color);">
+      {{ page.hero.bio | markdownify }}
+    </div>
+    <div class="icon-box" style="justify-content: flex-start; margin-top: 2rem;">
+      <a href="mailto:{{ site.email }}" class="btn">Contact Me</a>
+      <a href="{{ site.author.scholar }}" class="btn" style="background-color: var(--text-color); margin-left: 1rem;">Google Scholar</a>
+    </div>
+  </div>
+</section>
+
+<div class="container" style="margin-top: 4rem;">
+  <div class="grid-2" style="grid-template-columns: 2fr 1fr; gap: 4rem;">
+    <div>
+      <h2>Research Focus</h2>
+      <div>
+        {{ page.research_focus.intro | markdownify }}
+      </div>
+      
+      <div class="grid-2" style="gap: 1.5rem; margin-top: 2rem;">
+        {% for area in page.research_focus.areas %}
+        <div class="card" style="margin-bottom: 0;">
+          <h3><i class="{{ area.icon }} highlight" style="margin-right: 0.5rem;"></i> {{ area.title }}</h3>
+          <p style="font-size: 0.95rem;">{{ area.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div>
+      <h3>Quick Facts</h3>
+      <div class="card" style="border-top-color: #334155; padding: 1.5rem;">
+        <h4 style="margin-top: 0;">Impact</h4>
+        <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.95rem;">
+          {% for fact in page.quick_facts %}
+          <li>{{ fact }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <h3 style="margin-top: 2.5rem;">Current Funding</h3>
+      {% for grant in page.funding %}
+      <div class="card" style="padding: 1.5rem; {% if forloop.first == false %}margin-top: -1rem;{% endif %}">
+        <h4 style="margin-top: 0; color: #e11d48; font-size: 1rem;">{{ grant.agency }}</h4>
+        <p style="font-size: 0.9rem; margin-bottom: 0;">{{ grant.project }} ({{ grant.amount }})</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
