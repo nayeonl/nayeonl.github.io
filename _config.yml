@@ -27,6 +27,7 @@ theme: minima # We will customize this or build a custom layout
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
