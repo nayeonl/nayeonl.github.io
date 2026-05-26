@@ -4,10 +4,10 @@ title: Home
 hero:
   title: Dr. Nayeon Lee
   subtitle: Assistant Research Professor at the Center for Advanced Vehicular Systems (CAVS), Mississippi State University.
-  bio: "Bridging the gap between **computational precision** and **organic biology**. My research focuses on bio-inspired material design, studying how nature—like the impact-mitigating structures of woodpecker beaks or superhydrophobic floral surfaces—can inspire next-generation engineering solutions."
+  bio: "**Material characterization** and **Multiscale material modeling**. My research focuses on material characterization and computational modeling/simulation of materials, including biological materials, metals, and composites, that aim to predict the material behaviors and inspire next-generation engineering solutions."
   image: /assets/images/nayeon.jpg
 research_focus:
-  intro: "I specialize in the intersection of biological systems and mechanical engineering. With a unique background spanning from software engineering at Samsung to a Ph.D. in Biological Engineering, I combine advanced computational modeling (FEA, LAMMPS) with extensive experimental material characterization."
+  intro: "My research focuses on the engineering design principles and functional performance of hierarchically designed nature’s materials and their application.By studying the microstructure-properties-function relationships in natural materials, I aim to inspire and guide the development of more advanced and purposefully designed novel synthetic materials. "
   areas:
     - title: Bio-mimicry
       icon: fas fa-leaf
@@ -23,7 +23,7 @@ research_focus:
       description: Computational modeling (Abaqus/LS-Dyna, LAMMPS), 3D reconstruction from CT/MRI, and acoustic wave propagation using ultrasound.
 quick_facts:
   - 20 total publications
-  - 370+ citations, h-index 8
+  - 390+ citations, h-index 8
   - Patent for bio-inspired football helmet design
   - Reviewer for 8+ international journals
 funding:
